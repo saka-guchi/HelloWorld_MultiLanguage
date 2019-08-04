@@ -1,15 +1,15 @@
 //
-//  main.cpp
-//  algorithm
+//  main.c
+//  HelloWorld_c
 //
-//  Created by 坂口翔平 on 2019/07/29.
+//  Created by saka-guchi on 2019/08/04.
 //  Copyright © 2019 saka-guchi. All rights reserved.
 //
 
-#include <iostream>
+#include <stdio.h>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    printf("Hello, World!\n");
     return 0;
 }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50771D2D22EF3F5D00E6CA8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50771D2C22EF3F5D00E6CA8A /* main.cpp */; };
+		50771D2D22EF3F5D00E6CA8A /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50771D2C22EF3F5D00E6CA8A /* HelloWorld.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		50771D2922EF3F5D00E6CA8A /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		50771D2C22EF3F5D00E6CA8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		50771D2922EF3F5D00E6CA8A /* HelloWorld_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		50771D2C22EF3F5D00E6CA8A /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		50771D2022EF3F5D00E6CA8A = {
 			isa = PBXGroup;
 			children = (
-				50771D2B22EF3F5D00E6CA8A /* algorithm */,
+				50771D2B22EF3F5D00E6CA8A /* cpp */,
 				50771D2A22EF3F5D00E6CA8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		50771D2A22EF3F5D00E6CA8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50771D2922EF3F5D00E6CA8A /* algorithm */,
+				50771D2922EF3F5D00E6CA8A /* HelloWorld_cpp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50771D2B22EF3F5D00E6CA8A /* algorithm */ = {
+		50771D2B22EF3F5D00E6CA8A /* cpp */ = {
 			isa = PBXGroup;
 			children = (
-				50771D2C22EF3F5D00E6CA8A /* main.cpp */,
+				50771D2C22EF3F5D00E6CA8A /* HelloWorld.cpp */,
 			);
-			path = algorithm;
+			path = cpp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50771D2822EF3F5D00E6CA8A /* algorithm */ = {
+		50771D2822EF3F5D00E6CA8A /* HelloWorld_cpp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50771D3022EF3F5D00E6CA8A /* Build configuration list for PBXNativeTarget "algorithm" */;
+			buildConfigurationList = 50771D3022EF3F5D00E6CA8A /* Build configuration list for PBXNativeTarget "HelloWorld_cpp" */;
 			buildPhases = (
 				50771D2522EF3F5D00E6CA8A /* Sources */,
 				50771D2622EF3F5D00E6CA8A /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = algorithm;
+			name = HelloWorld_cpp;
 			productName = algorithm;
-			productReference = 50771D2922EF3F5D00E6CA8A /* algorithm */;
+			productReference = 50771D2922EF3F5D00E6CA8A /* HelloWorld_cpp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 50771D2422EF3F5D00E6CA8A /* Build configuration list for PBXProject "algorithm" */;
+			buildConfigurationList = 50771D2422EF3F5D00E6CA8A /* Build configuration list for PBXProject "HelloWorld_cpp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50771D2822EF3F5D00E6CA8A /* algorithm */,
+				50771D2822EF3F5D00E6CA8A /* HelloWorld_cpp */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50771D2D22EF3F5D00E6CA8A /* main.cpp in Sources */,
+				50771D2D22EF3F5D00E6CA8A /* HelloWorld.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +257,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50771D2422EF3F5D00E6CA8A /* Build configuration list for PBXProject "algorithm" */ = {
+		50771D2422EF3F5D00E6CA8A /* Build configuration list for PBXProject "HelloWorld_cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50771D2E22EF3F5D00E6CA8A /* Debug */,
@@ -266,7 +266,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50771D3022EF3F5D00E6CA8A /* Build configuration list for PBXNativeTarget "algorithm" */ = {
+		50771D3022EF3F5D00E6CA8A /* Build configuration list for PBXNativeTarget "HelloWorld_cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50771D3122EF3F5D00E6CA8A /* Debug */,
