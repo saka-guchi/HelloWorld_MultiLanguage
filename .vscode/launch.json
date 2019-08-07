@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch HelloWorld.c",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "gcc build HelloWorld.c"
+        },
+        {
+            "name": "Launch HelloWorld.cpp",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "g++ build HelloWorld.cpp"
+        },
+        {
+            "name": "Launch HelloWorld.js",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/javascript/HelloWorld.js",
+            "preLaunchTask": "g++ build HelloWorld.cpp"
+        }
+    ]
+}
