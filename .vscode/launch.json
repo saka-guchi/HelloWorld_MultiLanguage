@@ -12,7 +12,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "gcc build HelloWorld.c"
+            "preLaunchTask": "gcc build HelloWorld.c",
         },
         {
             "name": "Launch HelloWorld.cpp",
@@ -25,14 +25,19 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "g++ build HelloWorld.cpp"
+            "preLaunchTask": "g++ build HelloWorld.cpp",
         },
         {
             "name": "Launch HelloWorld.js",
             "type": "node",
             "request": "launch",
             "program": "${workspaceFolder}/javascript/HelloWorld.js",
-            "preLaunchTask": "g++ build HelloWorld.cpp"
-        }
+        },
+        {
+            "name": "Launch HelloWorld.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/python/HelloWorld.py",
+        },
     ]
 }
