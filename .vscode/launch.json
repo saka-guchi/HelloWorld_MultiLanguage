@@ -50,7 +50,15 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "swift compiler"
+            "preLaunchTask": "swift compiler",
+        },
+        {
+            "name": "Launch HelloWorld.rb",
+            "type": "Ruby",
+            "request": "launch",
+            "program": "${workspaceFolder}/ruby/HelloWorld.rb",
+            "pathToRDebugIDE": "/Users/ss/.rbenv/shims/rdebug-ide",
+//            "useBundler": true
         },
     ]
 }
