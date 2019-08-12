@@ -39,5 +39,18 @@
             "request": "launch",
             "program": "${workspaceFolder}/python/HelloWorld.py",
         },
+        {
+            "name": "Launch HelloWorld.swift",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/swift/HelloWorld.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "swift compiler"
+        },
     ]
 }

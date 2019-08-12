@@ -2,8 +2,8 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "shell",
             "label": "gcc build HelloWorld.c",
+            "type": "shell",
             "command": "gcc",
             "args": [
                 "-g",
@@ -20,8 +20,8 @@
             ]
         },
         {
-            "type": "shell",
             "label": "g++ build HelloWorld.cpp",
+            "type": "shell",
             "command": "g++",
             "args": [
                 "-g",
@@ -36,6 +36,24 @@
             "problemMatcher": [
                 "$gcc"
             ]
-        }
+        },
+        {
+            "label": "swift compiler",
+            "type": "shell",
+            "command": "swiftc",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "panel": "dedicated"
+            }
+        },
     ]
 }
