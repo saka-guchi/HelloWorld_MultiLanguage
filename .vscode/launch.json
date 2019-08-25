@@ -70,5 +70,13 @@
             "cwd": "${workspaceRoot}",
             "program": "${workspaceRoot}/${relativeFile}",
         },
+        {
+            "name": "kotlin",
+            "type": "kotlin",
+            "request": "launch",
+            "projectRoot": "${workspaceRoot}",
+            "mainClass": "HelloWorldKt",
+            "preLaunchTask": "kotlin compiler",
+        },
     ]
 }

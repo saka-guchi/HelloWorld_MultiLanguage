@@ -55,5 +55,33 @@
                 "panel": "dedicated"
             }
         },
+        {
+            "label": "kotlin compiler",
+            "type": "shell",
+            "command": "kotlinc",
+            "args": [
+                "${file}",
+                "-include-runtime",
+                "-d",
+                "${fileDirname}/${fileBasenameNoExtension}.jar"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "kotlin run",
+            "type": "shell",
+            "command": "kotlin",
+            "args": [
+                "${fileDirname}/${fileBasenameNoExtension}.jar"
+            ],
+            "problemMatcher": []
+        }
     ]
 }
